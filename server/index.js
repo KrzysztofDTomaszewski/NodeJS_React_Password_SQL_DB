@@ -12,8 +12,19 @@ const db = mysql.createConnection({
 
 
 //application sends '/', request and result to the app (in this)
-app.get("/", (req, res) => {
-    res.send("NODEJS Hello!"); //response send to 'app' -> express nodejs instance
+app.post("/addpassword", (req, res) => {
+    const {password, title} = req.body
+
+    db.query("INSERT INTO passwords (password, title) VALUES (?,?)", 
+    [password, title,],
+        (err, result) => {
+            if (err) {
+                console.log(err)
+            } else {
+                res.send("Success");
+            }
+        }
+    );
 });
 
 
