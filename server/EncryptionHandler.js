@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const secret = 'pppppppppppppppppppppppppppppppp';
+const secret = 'react-native-Password-Manager01x'; //32 bit key
 
 const encrypt = (password) => {
     // Identified for the encryption 
