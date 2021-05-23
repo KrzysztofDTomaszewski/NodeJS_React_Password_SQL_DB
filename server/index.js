@@ -33,6 +33,20 @@ app.post('/addpassword', (req, res) => {
     );
 });
 
+app.get('/showpasswords', (req, res) => {
+    db.query('SELECT * FROM passwords;', (err, result) => {
+       if (err) {
+           console.log(err);
+       } else {
+           res.send(result);
+       }
+    });
+});
+
+app.post('/decryptpassword', (req, res) => {
+    res.send(decrypt(req.body)) //simple end-point, recieves the request from decrypt body
+});
+
 //pass app to listen port ~3000
 app.listen(PORT, () => {
     console.log('Server is running...')
