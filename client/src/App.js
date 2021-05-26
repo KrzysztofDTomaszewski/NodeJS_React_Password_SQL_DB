@@ -31,7 +31,7 @@ function App() {
     }).then((response)=> {
       setPasswordList(
         passwordList.map((val) => {
-          return val.id == encryption.id 
+          return val.id === encryption.id 
           ? {
               id: val.id, 
               password: val.password, 
