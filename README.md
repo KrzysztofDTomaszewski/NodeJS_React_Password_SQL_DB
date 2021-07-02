@@ -8,7 +8,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - KrzysztofDTomaszewski 
   
 # GitHub URL: 
-  - https://github.com/KrzysztofDTomaszewski/React-Native-Vault.git
+  - https://github.com/KrzysztofDTomaszewski/
 
 # Current base version supports
   - Send user input (password && title into MySQL DB)
