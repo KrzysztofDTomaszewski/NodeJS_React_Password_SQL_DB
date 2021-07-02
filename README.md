@@ -24,9 +24,9 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - yarn i
 
 # Production
-  - Modify the code: Open root dir in your code editor.
+  - To read the code, open root dir in your code editor (Sublime, VS-Code).
 
-# Known-Issues
+# Known-Issues and Fixes
   - NPM Dependencies might be missing.
   - @react-native-gesture-handler
   - @react-navigation
