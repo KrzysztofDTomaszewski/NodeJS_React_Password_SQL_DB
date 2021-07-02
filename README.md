@@ -29,15 +29,21 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   -  MySQL_Workbench - https://dev.mysql.com/downloads/workbench/  
   -  NodeJS_14 - https://nodejs.org/en/
   -  Visual_Studio_Code - https://code.visualstudio.com/download
-  -  
 
-# Production
-  - To read the code, open root dir in your code editor (Sublime, VS-Code).
+# Installation (MacOS - Catalina 10.15)
 
-# Dependencies
+# Dependencies (change directory into /server")
   - npm i axios
   - npm i mysql
   - npm i cors
   - npm i nodemon
   
+# Known_Issues
 
+Windows_10 - Powershell might say "profile.ps1 cannot be loaded because the execution of scripts is   disabled on this system." *FIX | Enter the following command from elevated powershell prompt: "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser" -> Quick way to do so, WIN+R, then type "powershell" and press SHIFT + WIN + ENTER, say "Yes" to prompt.
+
+Windows_10 - Powershell might say "yarn" command does not exist. In that case if you used NodeJS installer as prompted above, it should have installed "chocolatey" from the powershell prompt which you had to say "Y" for yes etc. 
+![image](https://user-images.githubusercontent.com/62775389/124305001-62715200-db5c-11eb-8d26-cec3f54f46ea.png)
+
+Open powershell (WIN+R, powershell, ENTER) and type: "choco install nodejs". This should install NPM to the PATH, after this process is done, type in CMD or Powershell: "npm install --global yarn".
+![image](https://user-images.githubusercontent.com/62775389/124304979-5ab1ad80-db5c-11eb-8605-eb6df13c3c7e.png)
