@@ -18,7 +18,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
 # Screenshots
 <img width="2560" alt="Entered_Password" src="https://user-images.githubusercontent.com/62775389/124303443-5d130800-db5a-11eb-875e-a720ea6e44cc.png">
 
-<img width="2560" alt="SHA-256_Encrypted_Password" src="https://user-       images.githubusercontent.com/62775389/124303468-656b4300-db5a-11eb-9a2f-0bc4bca452a7.png">
+![image](https://user-images.githubusercontent.com/62775389/124303616-90ee2d80-db5a-11eb-8789-99cdfda2c3a3.png)
 
 # Development
   - Terminal - git clone https://github.com/KrzysztofDTomaszewski/NodeJS_React_Password_SQL_DB.git
