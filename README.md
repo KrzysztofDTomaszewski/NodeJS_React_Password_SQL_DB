@@ -31,7 +31,9 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   -  Visual_Studio_Code - https://code.visualstudio.com/download
 
 # Installation (MacOS - Catalina 10.15)
-
+  - Homebrew - https://brew.sh
+  - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
+  - Visual_Studio_Code - https://code.visualstudio.com/download
 # Dependencies 
   - npm i axios
   - npm i mysql
@@ -48,4 +50,8 @@ Windows_10 - Powershell might say "yarn" command does not exist. In that case if
 Open powershell (WIN+R, powershell, ENTER) and type: "choco install nodejs". This should install NPM to the PATH, after this process is done, type in CMD or Powershell: "npm install --global yarn".
 ![image](https://user-images.githubusercontent.com/62775389/124304979-5ab1ad80-db5c-11eb-8605-eb6df13c3c7e.png)
 
-Windows_10 - CMD | Powershell might print following error: "react-scripts' command is not found. *FIX | Change directory into /client, then, type in: "npm install" or "npm i", this will install all missing dependencies from "package.json". Same should be done in /server, just incase any files are missing from NodeJS' initial installation.
+Windows_10 - CMD/Powershell might print following error: "react-scripts' command is not found. *FIX | Change directory into /client, then, type in: "npm install" or "npm i", this will install all missing dependencies from "package.json". Same should be done in /server, just incase any files are missing from NodeJS' initial installation.
+
+MacOS - MySQL Workbench might crash, or not open after installation. This is an issue with Catalina 10.15, the fix for me (and others on stackoverflow) was to install following version: MySQL 8.0.24 - https://downloads.mysql.com/archives/workbench/
+
+
