@@ -32,7 +32,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
 
 # Installation (MacOS - Catalina 10.15)
 
-# Dependencies (change directory into /server")
+# Dependencies 
   - npm i axios
   - npm i mysql
   - npm i cors
@@ -47,3 +47,5 @@ Windows_10 - Powershell might say "yarn" command does not exist. In that case if
 
 Open powershell (WIN+R, powershell, ENTER) and type: "choco install nodejs". This should install NPM to the PATH, after this process is done, type in CMD or Powershell: "npm install --global yarn".
 ![image](https://user-images.githubusercontent.com/62775389/124304979-5ab1ad80-db5c-11eb-8605-eb6df13c3c7e.png)
+
+Windows_10 - CMD | Powershell might print following error: "react-scripts' command is not found. *FIX | Change directory into /client, then, type in: "npm install" or "npm i", this will install all missing dependencies from "package.json". Same should be done in /server, just incase any files are missing from NodeJS' initial installation.
