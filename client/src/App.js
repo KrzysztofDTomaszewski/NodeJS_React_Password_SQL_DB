@@ -90,6 +90,8 @@ function App() {
        
         
         <button onClick={addPassword}> Add Login </button>
+
+        <p>Please refresh page if login does not appear (F5 or CMD+R).</p>
       </div>
 
       <div className='Passwords'>
