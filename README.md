@@ -34,6 +34,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - Homebrew - https://brew.sh
   - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
   - Visual_Studio_Code - https://code.visualstudio.com/download
+  - MySQL Workbench - https://downloads.mysql.com/archives/workbench/
 # Dependencies 
   - npm i axios
   - npm i mysql
