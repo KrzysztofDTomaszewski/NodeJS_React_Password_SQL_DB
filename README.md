@@ -34,7 +34,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - Homebrew - https://brew.sh
   - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
   - Visual_Studio_Code - https://code.visualstudio.com/download
-  - MySQL Workbench - https://downloads.mysql.com/archives/workbench/
+  - (WARNING 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
 # Dependencies 
   - npm i axios
   - npm i mysql
@@ -53,6 +53,8 @@ Open powershell (WIN+R, powershell, ENTER) and type: "choco install nodejs". Thi
 
 Windows_10 - CMD/Powershell might print following error: "react-scripts' command is not found. *FIX | Change directory into /client, then, type in: "npm install" or "npm i", this will install all missing dependencies from "package.json". Same should be done in /server, just incase any files are missing from NodeJS' initial installation.
 
-MacOS - MySQL Workbench might crash, or not open after installation. This is an issue with Catalina 10.15, the fix for me (and others on stackoverflow) was to install following version: MySQL 8.0.24 - https://downloads.mysql.com/archives/workbench/
+MacOS - MySQL Workbench might crash, or not open after installation. This is an issue with Catalina 10.15, the fix for me (and others on stackoverflow) was to install following version: MySQL 8.0.22 - https://downloads.mysql.com/archives/workbench/
+
+
 
 
