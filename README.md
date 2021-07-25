@@ -21,8 +21,11 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
 ![image](https://user-images.githubusercontent.com/62775389/124303616-90ee2d80-db5a-11eb-8789-99cdfda2c3a3.png)
 
 # Development
+  - Once you install [Git, Atom|VS-Code, MySQL Workbench/Server, NodeJS_14] then use the following commands to begin cloning the repository.
   - Terminal - git clone https://github.com/KrzysztofDTomaszewski/NodeJS_React_Password_SQL_DB.git
   - Visual_Studio_Code - open root directory (NodeJS_React_Password_SQL_DB)
+  - Once the root folder is opened, open two terminal windows (one for /server, other for /client), then if every dependency is installed, use "yarn start" in    both terminal windows to start the back-end and front-end.
+  - Upon opening MySQL Workbench, make sure that you set the password to: "reactPass123", as this is the hard-coded password inside index.js.
 
 # Installation (Windows_10)
   -  MySQL_server - https://dev.mysql.com/downloads/installer/
@@ -38,16 +41,23 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
 
 # Installation (GNU/Linux Ubuntu 20.04 LTS)
   -	MySQL Workbench – Ubuntu Store / MySQL Workbench Community
-  -	MySQL Server – (sudo apt-get update sudo apt-get install mysql-server && sudo mysql_secure_installation utility && sudo systemctl start mysql &&     sudo systemctl enable mysql)
-  -	NodeJS_14 – sudo apt install nodejs && sudo apt install npm && sudo npm install -g yarn
+  -	MySQL Server – "sudo apt-get update sudo apt-get install mysql-server && sudo mysql_secure_installation utility && sudo systemctl start mysql &&     sudo systemctl enable mysql"
+  -	NodeJS_14 – "sudo apt install nodejs && sudo apt install npm && sudo npm install -g yarn"
   -	Visual Studio Code – Ubuntu Store / Visual Studio Code
-  -	Git - sudo apt install git
+  -	Git - "sudo apt install git"
 
 # Dependencies 
-  - npm i axios
-  - npm i mysql
-  - npm i cors
-  - npm i nodemon
+Execute the following from a Terminal shell
+  - "npm i axios"
+  - "npm i mysql"
+  - "npm i cors"
+  - "npm i nodemon"
+
+In order to use the project Yarn will need to be installed, after NodeJS is installed.
+  - "npm install --global yarn"
+
+Check that Yarn is installed, by running in terminal.
+  - "yarn --version"
   
 # Known_Issues
 
