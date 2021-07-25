@@ -8,7 +8,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - KrzysztofDTomaszewski 
   
 # GitHub URL: 
-  - https://github.com/KrzysztofDTomaszewski/
+  - https://github.com/KrzysztofDTomaszewski/NodeJS_React_Password_SQL_DB
 
 # Current_Features
   - Send user input (password && title into MySQL DB)
