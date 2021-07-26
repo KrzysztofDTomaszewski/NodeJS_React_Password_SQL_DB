@@ -24,8 +24,9 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - Once you install [Git, Atom|VS-Code, MySQL Workbench/Server, NodeJS_14] then use the following commands to begin cloning the repository.
   - Terminal - git clone https://github.com/KrzysztofDTomaszewski/NodeJS_React_Password_SQL_DB.git
   - Visual_Studio_Code - open root directory (NodeJS_React_Password_SQL_DB)
-  - Once the root folder is opened, open two terminal windows (one for /server, other for /client), then if every dependency is installed, use "yarn start" in    both terminal windows to start the back-end and front-end.
-  - Upon opening MySQL Workbench, make sure that you set the password to: "reactPass123", as this is the hard-coded password inside index.js.
+  - Open two terminal windows one for /server, other for /client. Inside /server, install dependencies required and run "npm i && npm i", inside /client, run just "npm i && npm i". Finally, use "yarn start" in both terminal windows to start the back-end and front-end.
+  - Upon opening MySQL Workbench, make sure that you set the password to: "reactPass123" and save it in vault, as this is the hard-coded password inside index.js. 
+  - Furthermore, make sure your MySQL Server is A: running and, B: MySQL Port is allowed through firewall.
 
 # Installation (Windows_10)
   -  MySQL_server - https://dev.mysql.com/downloads/installer/
@@ -38,7 +39,8 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - Homebrew - https://brew.sh
   - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
   - Visual_Studio_Code - https://code.visualstudio.com/download
-  - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
+  - MySQL Workbench - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
+  - MySQL Server After homebrew is installed, use the following command to install MySQL Server: "brew install mysql"
 
 # Installation (GNU/Linux Ubuntu 20.04 LTS)
   -	MySQL Workbench – Ubuntu Store / MySQL Workbench Community
@@ -49,7 +51,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   -	For additional help, please look for the Instuctions_Guide file in the root of NodeJS_React_Password_SQL_DB
 
 # Dependencies 
-Execute the following from a Terminal shell
+Execute the following from a Terminal shell in /server folder.
   - "npm i axios"
   - "npm i mysql"
   - "npm i cors"
