@@ -25,8 +25,9 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - Terminal - git clone https://github.com/KrzysztofDTomaszewski/NodeJS_React_Password_SQL_DB.git
   - Visual_Studio_Code - open root directory (NodeJS_React_Password_SQL_DB)
   - Open two terminal windows one for /server, other for /client. Inside /server, install dependencies required and run "npm i && npm i", inside /client, run just "npm i && npm i". Finally, use "yarn start" in both terminal windows to start the back-end and front-end.
-  - Upon opening MySQL Workbench, make sure that MySQL Server is running correctly and use the password that you have used, when installing MySQL Server for Root@Localhost and save it in vault.
-  - Furthermore, make sure your MySQL Server is A: running and, B: MySQL Port is allowed through firewall.
+  - Upon opening MySQL Workbench, make sure that MySQL Server is running correctly, installing in-correct versions can break the MySQL service. 
+  - After you successfully installed: MySQL Workbench, MySQL Server, Code-Editor, Git and NodeJS_14, then, make sure that when you open MySQL Workbench, you click the "+" sign, to create a new connection, in there, the connection name for me is PasswordManager, localhost:3306, root and password, I make sure that I first click on "Test Connection". In there, I enter "reactPass123", in order to link MySQL Workbench, with my back-end server. After that, you should be prompted with "Successfully made the MySQL Connection", followed by one line at the bottom: "SSL: enabled with TLS_AES_256_GCM_SHA384". 
+  - Now, you can run "yarn start" in /server and /client.
 
 # Installation (Windows_10)
   -  MySQL_server - https://dev.mysql.com/downloads/installer/
