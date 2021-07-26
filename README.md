@@ -40,7 +40,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
   - Visual_Studio_Code - https://code.visualstudio.com/download
   - MySQL Workbench - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
-  - MySQL Server - https://dev.mysql.com/downloads/file/?id=506505
+  - MySQL Server - (WARNING please download 8.0.22) https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.22-macos10.15-x86_64.dmg
 
 # Installation (GNU/Linux Ubuntu 20.04 LTS)
   -	MySQL Workbench – Ubuntu Store / MySQL Workbench Community
