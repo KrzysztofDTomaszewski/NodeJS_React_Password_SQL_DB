@@ -34,13 +34,12 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   -  MySQL_Workbench - https://dev.mysql.com/downloads/workbench/  
   -  NodeJS_14 - https://nodejs.org/en/
   -  Visual_Studio_Code - https://code.visualstudio.com/download
-  -	For additional help, please look for the Instuctions_Guide file in the root of NodeJS_React_Password_SQL_DB
+  -	 For additional help, please look for the Instuctions_Guide file in the root of NodeJS_React_Password_SQL_DB
   
 # Installation (MacOS - Catalina 10.15)
-  - Homebrew - https://brew.sh
-  - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
+  - NodeJS (NPM) https://nodejs.org/en/download/
   - Visual_Studio_Code - https://code.visualstudio.com/download
-  - MySQL Workbench - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
+  - MySQL Workbench - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) https://downloads.mysql.com/archives/workbench/
   - MySQL Server - (WARNING please download 8.0.22) https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.22-macos10.15-x86_64.dmg
 
 # Installation (GNU/Linux Ubuntu 20.04 LTS)
