@@ -40,7 +40,7 @@ NodeJS password application using SHA-256 and local MySQL DB for validation and 
   - NodeJS (Yarn && NPM) https://reactnative.dev/docs/environment-setup
   - Visual_Studio_Code - https://code.visualstudio.com/download
   - MySQL Workbench - (WARNING please download 8.0.22, if on Catalina 10.15, it will not work otherwise) MySQL Workbench - https://downloads.mysql.com/archives/workbench/
-  - MySQL Server After homebrew is installed, use the following command to install MySQL Server: "brew install mysql"
+  - MySQL Server - https://dev.mysql.com/downloads/file/?id=506505
 
 # Installation (GNU/Linux Ubuntu 20.04 LTS)
   -	MySQL Workbench – Ubuntu Store / MySQL Workbench Community
